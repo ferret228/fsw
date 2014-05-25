@@ -66,7 +66,7 @@ public class Globals : MonoBehaviour {
 	public static int cameraDistance{
 		get {
 			if(_cameraDistance == null || _cameraDistance == 0){
-				_cameraDistance = - 20;
+				_cameraDistance = - 30;
 			}
 			
 			return _cameraDistance;
